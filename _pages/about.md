@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<p align="justify">I am an advanced mobility engineer at HNTB Corporation based in Columbus, Ohio. My work focuses on electric vehicle transportation planning and  intelligent transportation systems and connected/automated vehicle systems. I am currently building geospatial computational tools to determine number of charging stations required to cerfity alternative fuel corridors in the states of Oklahoma and Indiana fully built out under National Electric Vehicle Infrastructure (NEVI) Formula Program. In addition, I am developing Connected Construction Work Zone (CWZ) Tool to support intelligent transportation systems planning in Ohio</p>
+<p align="justify">I am an advanced mobility engineer at HNTB Corporation based in Columbus, Ohio. My work focuses on electric vehicle transportation planning and  intelligent transportation systems and connected/automated vehicle systems. I am currently building geospatial computational tools to determine the number of charging stations required to cerfity alternative fuel corridors in the states of Oklahoma and Indiana as fully built out under National Electric Vehicle Infrastructure (NEVI) Formula Program. In addition, I am developing Connected Construction Work Zone (CWZ) Tool to support intelligent transportation systems planning in Ohio</p>
 
 <p align="justify">You can find my CV <a href="/files/Abdirashid.pdf" target="_blank" rel="noopener noreferrer">here</a>.</p>
 
