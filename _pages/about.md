@@ -6,20 +6,20 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<p align="justify">I am advanced mobility and energy technology researcher based in Columbus, Ohio. My research advances understanding of barriers to the deployment of electric vehicles.</p>
+<p align="justify">I am an advanced mobility engineer at HNTB Corporation based in Columbus, Ohio. My work focuses on electric vehicle transportation planning and  intelligent transportation systems and connected/automated vehicle systems. I am currently building geospatial computational tools to determine number of charging stations required to cerfity alternative fuel corridors in the states of Oklahoma and Indiana fully built out under National Electric Vehicle Infrastructure (NEVI) Formula Program. In addition, I am developing Connected Construction Work Zone (CWZ) Tool to support intelligent transportation systems planning in Ohio</p>
 
 <p align="justify">You can find my CV <a href="/files/Abdirashid.pdf" target="_blank" rel="noopener noreferrer">here</a>.</p>
 
-<p align="justify">I am a PhD Candidate studying sustainable transition to electric vehicles in the Department of Geography, The Ohio State University. I also hold a master's degree in Transportation Engineering from the University of Seoul, South Korea.</p>
+<p align="justify">I received my PhD in Geography specializing in sustainable transportation and energy systems from The Ohio State University in August, 2025. I also hold a master's degree in Transportation Engineering from the University of Seoul, South Korea.</p>
 
-<p align="justify">My research addresses the sustainability implications of the energy transition from an interdisciplinary perspective. Sustainability science often trancends disciplinary boundaries. Given that electric vehicle transition is a complex process that involves not only transportation system but also energy infrastructure and climate change, I embrace an interdisciplinary approach to integrate multiple fields of study including transportation science, economic philosophy, econometrics, and complexity science in my dissertation project. I draw on semi-structured qualitative interviews, quantitative surveys, and agent-based modeling approaches to conceptualize, measure and model sustainable transition to electric vehicles in Columbus, Ohio (USA).</p>
+<p align="justify">My dissertation focused on the sustainability implications of the energy transition from an interdisciplinary perspective. Sustainability science often trancends disciplinary boundaries. Given that electric vehicle transition is a complex process that involves not only transportation system but also energy infrastructure and climate change, I embraced an interdisciplinary approach to integrate multiple fields of study including transportation science, economic philosophy, econometrics, and complexity science in my dissertation project. I drew on semi-structured qualitative interviews, quantitative surveys, and agent-based modeling approaches to conceptualize, measure and model sustainable transition to electric vehicles in Columbus, Ohio (USA).</p>
 
-<p align="justify">My work contributes to understanding the social dimension of sustainability to promote adequate access to affordable energy for electric vehicles in a car-dependent society and the environmental dimension of sustainability to reduce greenhouse gas emissions from the transportation sector. My doctoral research particularly addresses the National Academies-identified Grand Challenges and Opportunities for the Twenty-first Century, including (1) curbing climate change while also adapting to its impacts, and (2) developing efficient, healthy, and sustainable cities and communities. My goal is to apply my findings to practice, sustainability education, and community outreach initiatives.</p>
+<p align="justify">My work broadly contributes to understanding the social dimension of sustainability to promote adequate access to affordable energy for electric vehicles in a car-dependent society and the environmental dimension of sustainability to reduce greenhouse gas emissions from the transportation sector. My doctoral research particularly addressed the National Academies-identified Grand Challenges and Opportunities for the Twenty-first Century, including (1) curbing climate change while also adapting to its impacts, and (2) developing efficient, healthy, and sustainable cities and communities. My goal is to apply my findings to practice, sustainability education, and community outreach initiatives.</p>
 
-<p align="center"> <img src="/images/dissertation.png" style = "border:0"> </p>
-<p font size = "8" align="center"><i> This figure depicts interviewee residential locations in Franklin County by the nearest street intersection (n = 45). I used interviews to test an integrated framework for just transition to electric vehicles. Traffic proximity and volume (percentile) (A), average relative cost and time spent on transportation relative to all other tracts (B), percentage of household income spent on energy costs (C), and susceptibility to disasters from natural or human-caused disasters to disease outbreaks (D). Data from Climate and Economic Justice Screening Tool (A & B), U.S. Department of Energy (C), and U.S. Climate Resilience Toolkit (D). </i></p>
+<p align="center"> <img src="/images/portolio.png" style = "border:0"> </p>
+<p font size = "8" align="center"><i> This figure depicts my ongoing NEVI projects. </i></p>
 
-<p align="justify">Apart from my dissertation project, I studied sustainable transportation and urban development in the US context. I have published a new article with my advisor Huyen Le on the "Impacts of bicycle facilities on residential property values in 11 US cities" in the <i>Journal of Transport Geography</i>. I also completed a manuscript on the impacts of bicycle networks on bicycling in 12 US cities. Prior to joining The Ohio State University as a PhD student, I studied how Asian cities are different from North American and European contexts in an era of knowledge-based innovation and services in post-industrial cities at the University of Seoul in South Korea. I also worked with <a href="https://transitcosts.com/about/">research scholars</a> at the Marron Institute of Urban Management at New York University to develop a database with over 500 transit projects from more than 40 countries to understand the drivers of transit infrastructure costs on a global scale to give American cities a sustainable alternative to a future in thrall to gasoline vehicle use.  </p>
+<p align="justify">Apart from my dissertation project, I studied sustainable transportation and urban development in the US context. I published on the economic impacts of bicycle infrastructure 11 US cities in the <i>Journal of Transport Geography</i> and justice implications of electric vehicle transition for underserved communities in <i>Energy Research & Social Science</i> . Prior to joining The Ohio State University as a PhD student, I studied how Asian cities are different from North American and European contexts in an era of knowledge-based innovation and services in post-industrial cities at the University of Seoul in South Korea. I also worked with <a href="https://transitcosts.com/about/">research scholars</a> at the Marron Institute of Urban Management at New York University to develop a database with over 500 transit projects from more than 40 countries to understand the drivers of transit infrastructure costs on a global scale to give American cities a sustainable alternative to a future in thrall to gasoline vehicle use.  </p>
 
 ## News
 
@@ -44,6 +44,30 @@ redirect_from:
 </style>
 
 <table class="no-border-table">
+  <tr>
+    <td class="date-cell">11/17/2025</td>
+    <td>
+      First dissertation paper with  Jeffrey M. Bielicki , Jeffrey Jacquet and my PhD advisor Huyen Le 
+      <a href="https://doi.org/10.1016/j.erss.2025.104449" 
+         target="_blank" 
+         rel="noopener noreferrer">
+         "Just transition to electric vehicles in disadvantaged communities: Integrating transportation, energy, environmental, and climate justice"
+      </a> 
+      was published in <em>Energy Research & Social Science</em>!
+    </td>
+  </tr>
+  <tr>
+    <td class="date-cell">8/19/2025</td>
+    <td>
+      I successfully 
+      <a href="https://www.linkedin.com/posts/abdirashid-dahir-ab598b134_im-thrilled-to-share-that-i-successfully-activity-7366481828335050752-IUzR" 
+         target="_blank" 
+         rel="noopener noreferrer">
+         defended my PhD dissertation
+      </a> 
+      on the Just Transition to Electric Vehicles (JTEV) framework!
+    </td>
+  </tr>
   <tr>
     <td class="date-cell">2/25/2025</td>
     <td>
