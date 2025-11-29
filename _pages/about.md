@@ -65,7 +65,7 @@ redirect_from:
          rel="noopener noreferrer">
          defended my PhD dissertation
       </a> 
-      on the Just Transition to Electric Vehicles (JTEV) framework!
+      on the Just Transition to Electric Vehicles in Columbus, Ohio!
     </td>
   </tr>
   <tr>
