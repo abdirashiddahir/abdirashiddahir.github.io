@@ -16,8 +16,8 @@ redirect_from:
 
 <p align="justify">My work broadly contributes to understanding the social dimension of sustainability to promote adequate access to affordable energy for electric vehicles in a car-dependent society and the environmental dimension of sustainability to reduce greenhouse gas emissions from the transportation sector. My doctoral research particularly addressed the National Academies-identified Grand Challenges and Opportunities for the Twenty-first Century, including (1) curbing climate change while also adapting to its impacts, and (2) developing efficient, healthy, and sustainable cities and communities. My goal is to apply my findings to practice, sustainability education, and community outreach initiatives.</p>
 
-<p align="center"> <img src="/images/portfolio.png" style = "border:0"> </p>
-<p font size = "8" align="center"><i> This figure depicts my ongoing NEVI projects. </i></p>
+<p align="center"> <img src="/images/abdirashid_TRB.jpg" style = "border:0"> </p>
+<p font size = "8" align="center"><i> I presented findings from my doctoral research in equitable transition to electric vehicles at the 2025 Transportation Research Board Annual Meeting in Washington, DC. </i></p>
 
 <p align="justify">Apart from my dissertation project, I studied sustainable transportation and urban development in the US context. I published on the economic impacts of bicycle infrastructure 11 US cities in the <i>Journal of Transport Geography</i>. Prior to joining The Ohio State University as a PhD student, I studied how Asian cities are different from North American and European contexts in an era of knowledge-based innovation and services in post-industrial cities at the University of Seoul in South Korea. I also worked with <a href="https://transitcosts.com/about/">research scholars</a> at the Marron Institute of Urban Management at New York University to develop a database with over 500 transit projects from more than 40 countries to understand the drivers of transit infrastructure costs on a global scale to give American cities a sustainable alternative to a future in thrall to gasoline vehicle use.  </p>
 
