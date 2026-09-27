@@ -265,6 +265,14 @@ details.abstract[open] {
 .abstract__body figure { margin: 16px 0 4px; }
 .abstract__body figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 8px; }
 
+a.vid {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  white-space: nowrap;
+  margin-left: 6px;
+}
+a.vid::before { content: "\25B6\FE0E"; font-size: 0.7em; margin-right: 5px; vertical-align: 1px; }
+
 .plain { list-style: none; padding: 0; margin: 0; }
 .plain li { margin: 0 0 14px; }
 
