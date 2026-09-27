@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abdirashid Dahir</title>
+  <meta name="description" content="Abdirashid Dahir — transportation and energy researcher. Electric vehicles, energy justice, transportation and land use, spatial analysis.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="split">
+
+  <div class="split__art" aria-hidden="true">
+    <!-- A city transit network → zoom into an EV charging stop → zoom into an agent-based model of adoption -->
+    <svg viewBox="0 0 400 660" xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <defs>
+        <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+          <path d="M28 0H0V28" stroke="#dfdace" stroke-width="0.8"/>
+        </pattern>
+        <radialGradient id="fadeG" cx="50%" cy="50%" r="55%">
+          <stop offset="0.55" stop-color="#fff"/>
+          <stop offset="1" stop-color="#000"/>
+        </radialGradient>
+        <mask id="fadeM"><rect x="0" y="10" width="400" height="250" fill="url(#fadeG)"/></mask>
+      </defs>
+
+      <!-- street grid + river -->
+      <rect x="0" y="10" width="400" height="250" fill="url(#grid)" mask="url(#fadeM)"/>
+      <path d="M8 216 C 110 196, 190 248, 392 206" stroke="#d3dcdb" stroke-width="10"/>
+
+      <!-- transit lines -->
+      <path class="draw d3" d="M30 110 H100 L160 50 H230" stroke="#b8a88c" stroke-width="3.2"/>
+      <path class="draw" d="M30 180 H120 L180 120 H370" stroke="#15181b" stroke-width="3.2"/>
+      <path class="draw d2" d="M70 50 L180 160 H290 L350 220" stroke="#1c6b4f" stroke-width="3.2"/>
+      <path class="draw d3" d="M250 40 V120 L290 160 V236" stroke="#c8891c" stroke-width="3.2"/>
+
+      <!-- stations -->
+      <g class="fade" fill="#fff" stroke="#15181b" stroke-width="1.5">
+        <circle cx="30" cy="180" r="3.6"/><circle cx="75" cy="180" r="3.6"/><circle cx="120" cy="180" r="3.6"/>
+        <circle cx="212" cy="120" r="3.6"/><circle cx="310" cy="120" r="3.6"/><circle cx="370" cy="120" r="3.6"/>
+        <circle cx="70" cy="50" r="3.6"/><circle cx="225" cy="160" r="3.6"/><circle cx="320" cy="190" r="3.6"/><circle cx="350" cy="220" r="3.6"/>
+        <circle cx="250" cy="40" r="3.6"/><circle cx="250" cy="80" r="3.6"/><circle cx="290" cy="236" r="3.6"/>
+        <circle cx="30" cy="110" r="3.6"/><circle cx="65" cy="110" r="3.6"/><circle cx="160" cy="50" r="3.6"/><circle cx="230" cy="50" r="3.6"/>
+        <!-- interchanges -->
+        <circle cx="160" cy="140" r="5.5" stroke-width="2"/><circle cx="250" cy="120" r="5.5" stroke-width="2"/>
+        <circle cx="290" cy="160" r="5.5" stroke-width="2"/><circle cx="115" cy="95" r="5.5" stroke-width="2"/>
+      </g>
+
+      <!-- focus ring + zoom cone to circle 1 -->
+      <g class="fade f2">
+        <circle cx="290" cy="160" r="13" stroke="#1c6b4f" stroke-width="1.6"/>
+        <path d="M280.5 168.8 L131.9 306.6 M290.6 173 L300 375.4" stroke="#a9a397" stroke-width="0.9"/>
+      </g>
+
+      <!-- circle 1: EV at a charger -->
+      <circle cx="200" cy="380" r="100" fill="#fff" stroke="#15181b" stroke-width="1.3"/>
+      <path d="M182.6 398.7 L263.5 534 M175.4 399.6 L129.2 550.3" stroke="#a9a397" stroke-width="0.9"/>
+      <line x1="118" y1="418" x2="282" y2="418" stroke="#15181b" stroke-width="1.2"/>
+      <!-- charger -->
+      <rect x="128" y="338" width="26" height="80" rx="4" fill="#fff" stroke="#15181b" stroke-width="1.4"/>
+      <rect x="133" y="346" width="16" height="11" rx="1.5" fill="#1c6b4f"/>
+      <path d="M143 364 L135 380 H141 L138 394 L148 376 H142 L146 364 Z" fill="#c8891c"/>
+      <!-- cable -->
+      <path d="M154 388 C 168 388, 164 400, 178 392" stroke="#1c6b4f" stroke-width="2"/>
+      <!-- car -->
+      <path d="M176 406 V392 Q176 384 186 382 H204 L220 366 Q224 362 230 362 H252 Q258 362 262 368 L272 382 Q282 384 282 394 V406 Z" fill="#fff" stroke="#15181b" stroke-width="1.5"/>
+      <path d="M209 380 L222 367 H236 V380 Z M241 367 H251 Q255 367 258 371 L265 380 H241 Z" fill="#e4efe9" stroke="#15181b" stroke-width="1"/>
+      <circle cx="200" cy="407" r="10" fill="#15181b"/><circle cx="200" cy="407" r="3.5" fill="#fff"/>
+      <circle cx="258" cy="407" r="10" fill="#15181b"/><circle cx="258" cy="407" r="3.5" fill="#fff"/>
+      <circle cx="178" cy="391" r="9" stroke="#1c6b4f" stroke-width="1.5"/>
+      <!-- small adoption bars behind, by neighborhood -->
+      <g fill="#e6d6b8">
+        <rect x="222" y="318" width="7" height="12"/><rect x="232" y="312" width="7" height="18"/>
+        <rect x="242" y="304" width="7" height="26"/><rect x="252" y="296" width="7" height="34"/>
+      </g>
+      <rect x="212" y="324" width="7" height="6" fill="#c8891c"/>
+      <line x1="208" y1="330" x2="264" y2="330" stroke="#15181b" stroke-width="0.9"/>
+
+      <!-- circle 2: agent-based model of adoption across a social network -->
+      <circle cx="200" cy="572" r="74" fill="#fff" stroke="#15181b" stroke-width="1.3"/>
+      <g>
+        <rect x="170" y="516" width="6" height="9" fill="#1c6b4f"/><rect x="178" y="516" width="6" height="9" fill="#1c6b4f"/>
+        <rect x="186" y="516" width="6" height="9" fill="#15181b"/><rect x="194" y="516" width="6" height="9" fill="#c8891c"/>
+        <rect x="202" y="516" width="6" height="9" fill="#1c6b4f"/><rect x="210" y="516" width="6" height="9" fill="#b8a88c"/>
+        <rect x="218" y="516" width="6" height="9" fill="#e6d6b8"/><rect x="226" y="516" width="6" height="9" fill="#e6d6b8"/>
+      </g>
+      <g stroke="#15181b" stroke-width="1.1">
+        <path d="M200 550 L160 574 M200 550 L240 574 M160 574 L148 610 M160 574 L182 612 M240 574 L222 612 M240 574 L254 608"/>
+      </g>
+      <path d="M200 550 L222 612" stroke="#1c6b4f" stroke-width="1" stroke-dasharray="3 3"/>
+      <path d="M182 612 H222 M160 574 H240" stroke="#b8a88c" stroke-width="1" stroke-dasharray="3 3"/>
+      <circle cx="200" cy="550" r="6.5" fill="#1c6b4f"/>
+      <circle cx="200" cy="550" r="11" stroke="#1c6b4f" stroke-width="1.3"/>
+      <circle cx="160" cy="574" r="5" fill="#15181b"/>
+      <circle cx="240" cy="574" r="5" fill="#15181b"/>
+      <circle cx="148" cy="610" r="4.5" fill="#c8891c"/>
+      <circle cx="182" cy="612" r="4.5" fill="#fff" stroke="#b8a88c" stroke-width="1.5"/>
+      <circle cx="222" cy="612" r="4.5" fill="#1c6b4f"/>
+      <circle cx="254" cy="608" r="4.5" fill="#fff" stroke="#b8a88c" stroke-width="1.5"/>
+    </svg>
+  </div>
+
+  <div class="split__text">
+    <h1 class="name">Abdirashid<br>Dahir</h1>
+    <hr class="rule">
+    <p class="lede">Transportation is where the energy transition meets everyday life. I study how electric vehicles, charging infrastructure, and better streets can serve the communities that need them most, and I build geospatial tools that help states plan for them.</p>
+
+    <ul class="bignav">
+      <li><a href="research.html">Research <span class="arr">→</span></a></li>
+      <li><a href="talks.html">Talks &amp; Media <span class="arr">→</span></a></li>
+      <li><a href="teaching.html">Teaching <span class="arr">→</span></a></li>
+      <li><a href="about.html">About <span class="arr">→</span></a></li>
+    </ul>
+
+    <footer class="homefoot">
+      <p class="role">Advanced Mobility Engineer · HNTB Corporation · Columbus, Ohio</p>
+      <p>PhD in Geography, The Ohio State University</p>
+      <p class="topics">Electric vehicles · Energy justice · Transportation &amp; land use · Spatial analysis</p>
+      <p class="contact"><a href="mailto:adahir@hntb.com">adahir@hntb.com</a></p>
+      <p class="links">
+        <a href="files/Abdirashid.pdf">CV</a>
+        <a href="https://scholar.google.com/citations?user=b2G66gYAAAAJ&amp;hl=en">Google Scholar</a>
+        <a href="https://orcid.org/0000-0002-0546-1311">ORCID</a>
+        <a href="https://github.com/abdirashiddahir">GitHub</a>
+        <a href="https://www.linkedin.com/in/abdirashid-dahir-ab598b134">LinkedIn</a>
+        <a href="https://x.com/abdirashidmd">X</a>
+      </p>
+    </footer>
+  </div>
+
+</main>
+</body>
+</html>
